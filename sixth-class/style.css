@@ -1,0 +1,48 @@
+a{
+    color: rgba(92, 255, 71, 0.684);
+}
+h1{
+    font-size: 30px;
+    text-decoration:none;
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    background-color: black;
+    color: rgb(171, 82, 82);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+// ...existing code...
+
+span.highlight {
+    color: #00ff88;
+    font-weight: bold;
+}
+
+span.fun {
+    color: #ff6b9d;
+}
+
+span.code {
+    color: #ffd700;
+}
+
+span.tech {
+    color: #00d4ff;
+}
+
+span.class {
+    color: #b19cd9;
+}
+
+
+
+
+

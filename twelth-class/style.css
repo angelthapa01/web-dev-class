@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 300vh;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.parent {
+  flex: 1;
+}
+
+.p1 {
+  height: 50vh;
+}
+
+.p2 {
+  height: 100vh;
+}
+
+.p3 {
+  height: 150vh;
+}
+
+.box {
+  height: 30vh;
+  position: sticky;
+  top: 0;
+}
+
+.b1 {
+  background: rgb(201, 123, 240);
+}
+
+.b2 {
+  background: rgb(110, 36, 159);
+}
+
+.b3 {
+  background: rgb(61, 1, 84);
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 300vh;
+}
+
+.corner {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  background: green;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  background: yellow;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  background: blue;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  background: red;
+}

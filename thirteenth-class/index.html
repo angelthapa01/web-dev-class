@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Play Button</title>
+
+<style>
+.video-container{
+    position: relative;
+    width: 1000px;
+}
+
+video{
+    width: 100%;
+}
+
+.play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 10px black;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="video-container">
+
+    <video id="myVideo">
+        <source src="ggwp.mp4" type="video/mp4">
+    </video>
+
+    <button class="play-btn" onclick="playVideo()">▶</button>
+
+</div>
+
+<script>
+function playVideo(){
+    const video = document.getElementById("myVideo");
+    video.play();
+}
+</script>
+
+</body>
+</html>

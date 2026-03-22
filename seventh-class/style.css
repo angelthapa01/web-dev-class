@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  background-color: #f2f2f2;
+}
+
+.box {
+  width: 70%;
+  background-color: rgb(196, 155, 155);
+  padding: 20px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.intro {
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 48px;
+}
+
+img {
+  width: 250px;
+  
+}
